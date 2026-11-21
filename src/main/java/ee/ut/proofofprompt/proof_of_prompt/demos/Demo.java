@@ -1,4 +1,9 @@
-package ee.ut.proofofprompt.proof_of_prompt.crypto;
+package ee.ut.proofofprompt.proof_of_prompt.demos;
+
+import ee.ut.proofofprompt.proof_of_prompt.crypto.CommitmentService;
+import ee.ut.proofofprompt.proof_of_prompt.crypto.InputMessage;
+import ee.ut.proofofprompt.proof_of_prompt.crypto.MerkleTree;
+import ee.ut.proofofprompt.proof_of_prompt.crypto.PromptMessage;
 
 import java.util.List;
 import static ee.ut.proofofprompt.proof_of_prompt.crypto.MessageRole.*;

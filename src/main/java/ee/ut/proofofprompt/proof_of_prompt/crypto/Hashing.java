@@ -22,7 +22,7 @@ public final class Hashing {
             throw new IllegalArgumentException("Expected exactly 64 lowercase hex characters");
     }
 
-    private static String digest(byte domain, byte[]... parts) {
+    static String digest(byte domain, byte[]... parts) {
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
             digest.update(domain);

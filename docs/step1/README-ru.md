@@ -11,7 +11,7 @@ Java 21 достаточно для демонстрации и автономн
 
 ```powershell
 ./mvnw.cmd test
-java '-Dfile.encoding=UTF-8' '-Dstdout.encoding=UTF-8' -cp target/classes ee.ut.proofofprompt.proof_of_prompt.crypto.Demo
+java '-Dfile.encoding=UTF-8' '-Dstdout.encoding=UTF-8' -cp target/classes ee.ut.proofofprompt.proof_of_prompt.demos.Demo
 ```
 
 Первый запуск компилирует код и проверяет протокол. Ошибка завершает запуск с
